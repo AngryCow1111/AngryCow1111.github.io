@@ -170,16 +170,16 @@ disqus:
     username: ityouknow
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: ityouknow
+    owner: AngryCow1111
     repo: blog-comments
     oauth:
-        client_id: 61bfc53d957e74e78f8f
-        client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+        client_id: 2190f64f474698988593
+        client_secret: ea1aaca01f75dd12c3c9314208f8070d743f8f8b
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: ityouknow
+    owner: AngryCow1111
     repo: blog-comments
-    clientID: 61bfc53d957e74e78f8f
-    clientSecret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+    clientID: 2190f64f474698988593
+    clientSecret: ea1aaca01f75dd12c3c9314208f8070d743f8f8b
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
