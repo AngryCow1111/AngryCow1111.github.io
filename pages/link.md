@@ -41,8 +41,8 @@ permalink: /link
 
 ## 个人链接
 
-- [ityouknow](http://www.ityouknow.com/) - 个人独立博客
-- [github](https://github.com/ityouknow) -  我分享代码的地方
+- [angrycow1111](https://angrycow1111.github.io/) - 个人独立博客
+- [github](https://github.com/AngryCow1111/) -  我分享代码的地方
 - [微博](http://weibo.com/ityouknow) -  我的微博
 - [知乎](https://www.zhihu.com/people/ityouknow) - 个人知乎地址，用的不太多大多数都在潜水
 - [博客园](https://www.cnblogs.com/ityouknow/) - 博客园个人博客，最开始写博客的地方
@@ -53,7 +53,7 @@ permalink: /link
 
 *需要展示你的网站，就在本页下面留言吧，也算是一种宣传方式。格式要求如下：*
 
-- 网站名称：ityouknow  
-- 网站链接：http://www.ityouknow.com  
+- 网站名称：AngryCow1111 
+- 网站链接：http://www.AngryCow1111.com  
 - 网站描述：neo 的个人博客，分享技术，分享生活  
 
