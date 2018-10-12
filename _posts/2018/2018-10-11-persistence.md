@@ -7,9 +7,9 @@ tags: [life]
 excerpt: 相信希望还是存在的，我也能在雨后天晴看到曙光！
 ---
 
+#<center><font color='blue'>努力去改变，相信自己可以做到</font></center> 
 
 
-<center>#努力去改变，相信自己可以做到</center>
 
 
 
