@@ -4,7 +4,6 @@ title:  英语学习----权利的游戏，
 no-post-nav: true
 category: othes
 tags: [english]
-excerpt: winter is comming！but also chance is ready！凛冬将至！时机
 excerpt: winter is coming！but also chance is ready！凛冬将至！时机已待！
 ---
 
