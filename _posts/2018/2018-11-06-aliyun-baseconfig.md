@@ -53,8 +53,15 @@ export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/libexport     PATH= ${JAV A_ HOM
 
 ## 	2.4 完成安装，查看、重启mysql
 
-​		systemctl status mysqld; // 查询mysql的运行转态   systemctl restart mysqld;// 重启mysql
+​		systemctl status mysqld; // 查询mysql的运行转态  
+
+​		![https://github.com/AngryCow1111/AngryCow1111.github.io/assets/images/2018/it/mysql_status.jpg]
+
+​		systemctl restart mysqld;// 重启mysql
 ​		systemctl stop mysqld;// 停止mysqld
+
+​		![https://github.com/AngryCow1111/AngryCow1111.github.io/assets/images/2018/it/mysql_stop.jpg]		
+
 ​		此时MySQL已经开始正常运行，不过要想进入MySQL还得先找出此时root用户的密码
 
 ​		通过如下命令可以在日志文件中找出密码：grep "password" /var/log/mysqld.log
@@ -62,10 +69,14 @@ export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/libexport     PATH= ${JAV A_ HOM
 ## 	2.5 进入mysql数据库
 
 ​		mysql -uroot -p 输入密码
+
+​		![https://github.com/AngryCow1111/AngryCow1111.github.io/assets/images/2018/it/mysql_enter.jpg]
 ​		输入初始密码，此时不能做任何事情，因为MySQL默认必须修改密码之后才能操作数据库修改密码命令：
 ​		ALTER USER 'root'@'localhost' IDENTIFIED BY '123';
 
-## 	2.6 解决报错
+## 	2.6 解决报错!
+
+​		[https://github.com/AngryCow1111/AngryCow1111.github.io/assets/imag			es/2018/it/mysql_password_error.png]
 
 ​		以上报错是说新设置的密码过于简单，解决方式：
 ​		//首先按照默认密码格式复杂度更改 
