@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  阿里云服务器----基础环境配置
+title:  阿里云服务器，基础环境配置
 no-post-nav: true
 category: othes
 tags: [linux]
