@@ -61,6 +61,9 @@ export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/libexport     PATH= ${JAV A_ HOM
 ​		systemctl stop mysqld;// 停止mysqld
 
 ​		![](https://github.com/AngryCow1111/AngryCow1111.github.io/assets/images/2018/it/mysql_stop.jpg])
+=======
+​		!https://github.com/AngryCow1111/AngryCow1111.github.io/tree/master/assets/images/2018/it/mysql_stop.jpg]		
+>>>>>>> 637985bd354a2593e8e86587c50ed94be424940e
 
 ​		此时MySQL已经开始正常运行，不过要想进入MySQL还得先找出此时root用户的密码
 
