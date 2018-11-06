@@ -55,11 +55,16 @@ export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/libexport     PATH= ${JAV A_ HOM
 
 ​		systemctl status mysqld; // 查询mysql的运行转态  
 
+<<<<<<< HEAD
 ​		![](https://github.com/AngryCow1111/AngryCow1111.github.io/assets/images/2018/it/mysql_status.jpg)
+=======
+​		![https://github.com/AngryCow1111/AngryCow1111.github.io/tree/master/assets/images/2018/it/mysql_status.jpg]
+>>>>>>> 637985bd354a2593e8e86587c50ed94be424940e
 
 ​		systemctl restart mysqld;// 重启mysql
 ​		systemctl stop mysqld;// 停止mysqld
 
+<<<<<<< HEAD
 ​		![](https://github.com/AngryCow1111/AngryCow1111.github.io/assets/images/2018/it/mysql_stop.jpg])
 =======
 ​		!https://github.com/AngryCow1111/AngryCow1111.github.io/tree/master/assets/images/2018/it/mysql_stop.jpg]		
@@ -73,13 +78,21 @@ export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/libexport     PATH= ${JAV A_ HOM
 
 ​		mysql -uroot -p 输入密码
 
+<<<<<<< HEAD
 ​		![](https://github.com/AngryCow1111/AngryCow1111.github.io/assets/images/2018/it/mysql_enter.jpg)
+=======
+​		!https://github.com/AngryCow1111/AngryCow1111.github.io/tree/master/assets/images/2018/it/mysql_enter.jpg]
+>>>>>>> 637985bd354a2593e8e86587c50ed94be424940e
 ​		输入初始密码，此时不能做任何事情，因为MySQL默认必须修改密码之后才能操作数据库修改密码命令：
 ​		ALTER USER 'root'@'localhost' IDENTIFIED BY '123';
 
 ## 	2.6 解决报错!
 
+<<<<<<< HEAD
 ​		![](https://github.com/AngryCow1111/AngryCow1111.github.io/assets/imag			es/2018/it/mysql_password_error.png)
+=======
+​		![https://github.com/AngryCow1111/AngryCow1111.github.io/tree/master/assets/images/2018/it/mysql_password_error.png]
+>>>>>>> 637985bd354a2593e8e86587c50ed94be424940e
 
 ​		以上报错是说新设置的密码过于简单，解决方式：
 ​		//首先按照默认密码格式复杂度更改 
