@@ -76,7 +76,7 @@ export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/libexport     PATH= ${JAV A_ HOM
 
 ## 	2.6 解决报错!
 
-​		![](https://github.com/AngryCow1111/AngryCow1111.github.io/assets/imag			es/2018/it/mysql_password_error.png)
+​		![](https://github.com/AngryCow1111/AngryCow1111.github.io/assets/images/2018/it/mysql_password_error.png)
 
 ​		以上报错是说新设置的密码过于简单，解决方式：
 ​		//首先按照默认密码格式复杂度更改 
