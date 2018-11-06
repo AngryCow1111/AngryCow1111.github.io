@@ -70,13 +70,13 @@ export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/libexport     PATH= ${JAV A_ HOM
 
 ​		mysql -uroot -p 输入密码
 
-​		![](https://github.com/AngryCow1111/AngryCow1111.github.io/blob/master/assets/images/2018/it/mysql_enter.jpg)
+​		![](https://github.com/AngryCow1111/AngryCow1111.github.io/assets/images/2018/it/mysql_enter.jpg)
 
 输入初始密码，此时不能做任何事情，因为MySQL默认必须修改密码之后能操作数据库修改密码命令：​	ALTER USER 'root'@'localhost' IDENTIFIED BY '123';
 
 ## 	2.6 解决报错!
 
-​		![](https://github.com/AngryCow1111/AngryCow1111.github.io/blob/master/assets/images/2018/it/mysql_password_error.png)
+​		![](https://angrycow1111.github.io/othes/assets/images/2018/it/mysql_password_error.png)
 
 ​		以上报错是说新设置的密码过于简单，解决方式：
 ​		//首先按照默认密码格式复杂度更改 
