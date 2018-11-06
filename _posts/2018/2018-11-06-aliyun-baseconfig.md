@@ -55,12 +55,12 @@ export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/libexport     PATH= ${JAV A_ HOM
 
 ​		systemctl status mysqld; // 查询mysql的运行转态  
 
-​		![](https://github.com/AngryCow1111/AngryCow1111.github.io/blob/master/assets/images/2018/it/mysql_status.jpg)
+​		![](https://angrycow1111.github.io/assets/images/2018/it/mysql_status.jpg)
 
 ​		systemctl restart mysqld;// 重启mysql
 ​		systemctl stop mysqld;// 停止mysqld
 
-​		![](https://github.com/AngryCow1111/AngryCow1111.github.io/blob/master/assets/images/2018/it/mysql_stop.png)
+​		![](https://angrycow1111.github.io/assets/images/2018/it/mysql_stop.png)
 
 ​		此时MySQL已经开始正常运行，不过要想进入MySQL还得先找出此时root用户的密码
 
@@ -70,7 +70,7 @@ export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/libexport     PATH= ${JAV A_ HOM
 
 ​		mysql -uroot -p 输入密码
 
-​		![](https://github.com/AngryCow1111/AngryCow1111.github.io/assets/images/2018/it/mysql_enter.jpg)
+​		![](https://angrycow1111.github.io/assets/images/2018/it/mysql_enter.jpg)
 
 输入初始密码，此时不能做任何事情，因为MySQL默认必须修改密码之后能操作数据库修改密码命令：​	ALTER USER 'root'@'localhost' IDENTIFIED BY '123';
 
