@@ -31,11 +31,11 @@ excerpt: winter is coming！but also chance is ready！凛冬将至！时机已�
 
 ![eng-007](https://angrycow1111.github.io/assets/images/2018/english/eng-007.png)
 
-My phrase just tell myself:
+# My phrase just tell myself:
 
-**sometimes, you think that i'm not going to get any better ,but also you can't get any worse.**
+**Sometimes, you think that i'm not going to get any better ,but also you can't get any worse.**
 
 **In most cases, we'll chose to give up when we encounter differences. But we should say:"Not Today".**
 
-**Yeah,winter is really coming and  i have feeling bitter temperature.But it is just summer's tail and we never feel the real cold.***
+**Yeah,winter is really coming and  i have feeling bitter temperature.But it is just summer's tail and we never feel the real cold.**
 
