@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  阿里云服务器----mysql连接错误
+title:  阿里云服务器 mysql连接错误
 no-post-nav: true
 category: others
 <<<<<<< HEAD
@@ -9,6 +9,7 @@ excerpt: 学习远程环境配置！GO!GO!GO!
 =======
 tags: [mysql]
 excerpt: mysql远程连接配置
+>>>>>>> 7d1a34a063de351afa70d04d6d00afb8bf2a3092
 ---
 
 # navicat连接阿里云mysql错误
