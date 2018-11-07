@@ -2,7 +2,7 @@
 layout: post
 title:  阿里云服务器----mysql连接错误
 no-post-nav: true
-category: othes
+category: others
 tags: [linux]
 excerpt: 学习远程环境配置！GO!GO!GO!
 ---
