@@ -66,6 +66,21 @@ export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/libexport     PATH= ${JAV A_ HOM
 
 ​		通过如下命令可以在日志文件中找出密码：grep "password" /var/log/mysqld.log
 
+​		2、修改 /etc/rc.d/rc.local 这个文件：
+​		例如将 apache、[MySQL](http://lib.csdn.net/base/mysql)、samba、svn 等这些服务的开机自启动问题一起搞定：
+
+​		vi/etc/rc.d/rc.local
+
+​		#添加以下命令
+
+​		/usr/sbin/apachectlstart
+
+​		/etc/rc.d/init.d/mysqldstart
+
+​		/etc/rc.d/init.d/smbstart
+
+​		/usr/local/subversion/bin/svnserve-d
+
 ## 	2.5 进入mysql数据库
 
 ​		mysql -uroot -p 输入密码
