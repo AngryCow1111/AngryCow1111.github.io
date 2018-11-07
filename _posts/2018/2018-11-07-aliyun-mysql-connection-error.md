@@ -13,15 +13,15 @@ excerpt: 学习远程环境配置！GO!GO!GO!
 
 - 打开安全组
 
-  ![mysql-aliyun](D:\MyResource4Java\GitHub\AngryCow1111.github.io\assets\images\2018\it\mysql-aliyun.png)
+  ![mysql-aliyun](https://angrycow1111.github.io/assets/images/2018/it/mysql-aliyun.png)
 
 - 打开配置规则
 
-  ![mysql-aliyun](D:\MyResource4Java\GitHub\AngryCow1111.github.io\assets\images\2018\it\mysql-aliyun-002.png)
+  ![mysql-aliyun](https://angrycow1111.github.io/assets/images/2018/it/mysql-aliyun-002.png)
 
 - 配置规则
 
-  ![mysql-aliyun](D:\MyResource4Java\GitHub\AngryCow1111.github.io\assets\images\2018\it\mysql-aliyun-003.png)
+  ![mysql-aliyun](https://angrycow1111.github.io/assets/images/2018/it/mysql-aliyun-003.png)
 
 ## 2. 修改mysql配置
 
@@ -35,11 +35,11 @@ excerpt: 学习远程环境配置！GO!GO!GO!
 
    mysql>update user set host = '%' where user = 'root';
 
-   ![mysql-aliyun-005](D:\MyResource4Java\GitHub\AngryCow1111.github.io\assets\images\2018\it\mysql-aliyun-005.png)
+   ![mysql-aliyun-005](https://angrycow1111.github.io/assets/images/2018/it/mysql-aliyun-005.png)
 
    mysql>select host, user from user; 
 
-   ![mysql-aliyun-006](D:\MyResource4Java\GitHub\AngryCow1111.github.io\assets\images\2018\it\mysql-aliyun-006.png)
+   ![mysql-aliyun-006](https://angrycow1111.github.io/assets/images/2018/it/mysql-aliyun-006.png)
 
 2. 授权
 
@@ -55,8 +55,8 @@ excerpt: 学习远程环境配置！GO!GO!GO!
 
   systemctl restart mysqld.service;
 
-  ![mysql-aliyun-007](D:\MyResource4Java\GitHub\AngryCow1111.github.io\assets\images\2018\it\mysql-aliyun-007.png)
+  ![mysql-aliyun-007](https://angrycow1111.github.io/assets/images/2018/it/mysql-aliyun-007.png)
 
 测试成功！
 
-![mysql-aliyun-008](D:\MyResource4Java\GitHub\AngryCow1111.github.io\assets\images\2018\it\mysql-aliyun-008.png)
+![mysql-aliyun-008](https://angrycow1111.github.io/assets/images/2018/it/mysql-aliyun-008.png)
