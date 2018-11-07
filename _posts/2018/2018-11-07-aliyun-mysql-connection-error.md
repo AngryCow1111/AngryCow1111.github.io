@@ -3,8 +3,12 @@ layout: post
 title:  阿里云服务器----mysql连接错误
 no-post-nav: true
 category: others
+<<<<<<< HEAD
 tags: [linux]
 excerpt: 学习远程环境配置！GO!GO!GO!
+=======
+tags: [mysql]
+excerpt: mysql远程连接配置
 ---
 
 # navicat连接阿里云mysql错误
@@ -12,6 +16,8 @@ excerpt: 学习远程环境配置！GO!GO!GO!
 ## 1. 添加阿里云安全规则
 
 - 打开安全组
+  首先创建安全组，然后再安全组中添加规则，如下所示，详情可以参考官方文档 
+  https://helpcdn.aliyun.com/document_detail/25471.html?spm=5176.doc25468.2.4.RfJyPU  
 
   ![mysql-aliyun](https://angrycow1111.github.io/assets/images/2018/it/mysql-aliyun.png)
 
