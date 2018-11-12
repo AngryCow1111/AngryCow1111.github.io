@@ -1,13 +1,11 @@
-
-
+---
 layout: post
-title: git常用命令
+title:  git常用命令
 no-post-nav: true
 category: others
 tags: [git]
 excerpt: git常用命令
-
-------
+---
 
 # git常用命令
 
