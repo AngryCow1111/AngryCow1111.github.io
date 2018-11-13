@@ -1,5 +1,5 @@
 ---
-	layout: post
+layout: post
 title:  rabbitmq安装（centos7.4）
 no-post-nav: true
 category: others
