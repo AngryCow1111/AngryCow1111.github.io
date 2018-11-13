@@ -13,7 +13,7 @@ excerpt: rabbitmq安装
 
   \# yum -y install socat 
 
-   出现如下错误：![rabbit-001](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\rabbit-001.png)
+   出现如下错误：![rabbit-001](https://angrycow1111.github.io/assets/images/2018/it/rabbit-001.png)
 
   解决方法：
 
@@ -72,7 +72,7 @@ excerpt: rabbitmq安装
 
     修改repo源：   将文件中的$releasever替换成7 （7是指LINUX版本号）, 下面是本人改了之后的截图
 
-    ![rabbit-yum-001](C:\Users\Administrator\Desktop\rabbit-yum-001.png)
+    ![rabbit-yum-001](https://angrycow1111.github.io/assets/images/2018/it/rabbit-yum-001.png)
 
     ​	运行makecache 生成缓存
 
