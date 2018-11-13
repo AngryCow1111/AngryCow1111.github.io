@@ -13,7 +13,7 @@ excerpt: rabbitmq安装
 
   \# yum -y install socat 
 
-   出现如下错误：![rabbit-001](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\rabbit-001.png)
+   出现如下错误：![rabbit-001](https://angrycow1111.github.io/assets/images/2018/it/rabbit-001.png)
 
   解决方法：
 
@@ -55,44 +55,45 @@ excerpt: rabbitmq安装
 
 
 
+- 修改yum源
 
-  - 修改yum源
 
-    进入yum源目录
+进入yum源目录
 
-    ```linux
-    cd  /etc/yum.repos.d
-    ```
+```linux
+cd  /etc/yum.repos.d
+```
 
-    下载文件
+下载文件
 
-    ```
-    wget http://mirrors.163.com/.help/CentOS7-Base-163.repo
-    ```
+```
+wget http://mirrors.163.com/.help/CentOS7-Base-163.repo
+```
 
-    修改repo源：   将文件中的$releasever替换成7 （7是指LINUX版本号）, 下面是本人改了之后的截图
+修改repo源：   将文件中的$releasever替换成7 （7是指LINUX版本号）, 下面是本人改了之后的截图
 
-    ![rabbit-yum-001](C:\Users\Administrator\Desktop\rabbit-yum-001.png)
+![rabbit-yum-001](https://angrycow1111.github.io/assets/images/2018/it/rabbit-yum-001.png)
 
-    ​	运行makecache 生成缓存
+​	运行makecache 生成缓存
 
-    ```linux
-    yum makecache 
-    ```
+```linux
+yum makecache 
+```
 
-    运行yum clean all
+运行yum clean all
 
-    ```linux
-    yum clean all
-    ```
+```linux
+yum clean all
+```
 
-    更新yum文件(等待时间有点长)
+更新yum文件(等待时间有点长)
 
-    ```linux
-    yum update
-    ```
+```linux
+yum update
+```
 
-- 装好后就可以安装 rabbitMQ
+装好后就可以安装 rabbitMQ
+
 ```linux
    rpm -ivh rabbitmq-server-3.6.9-1.el6.noarch.rpm
   Preparing...           ########################################### [100%]
