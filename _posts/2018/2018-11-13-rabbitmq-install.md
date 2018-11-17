@@ -72,6 +72,7 @@ wget http://mirrors.163.com/.help/CentOS7-Base-163.repo
 
 修改repo源：   将文件中的$releasever替换成7 （7是指LINUX版本号）, 下面是本人改了之后的截图
 
+<<<<<<< HEAD
 ![rabbit-yum-001](https://angrycow1111.github.io/assets/images/2018/it/rabbit-yum-001.png)
 =======
     ![rabbit-yum-001](https://angrycow1111.github.io/assets/images/2018/it/rabbit-yum-001.png)
