@@ -44,9 +44,9 @@ excerpt: 新的公司 第一天上班
     enterpassword
 外部navicat连接：
 ### 配置mysql连接
-    ![mysql-docker-setting](https://angrycow1111.github.io/assets/images/2018/life/mysql-docker-setting.jpg)
+    ![mysql-docker-setting](https://angrycow1111.github.io/assets/images/2018/it/mysql-docker-setting.jpg)
     
-     ![mysql-docker-setting1](https://angrycow1111.github.io/assets/images/2018/life/mysql-docker-setting1.jpg)
+     ![mysql-docker-setting1](https://angrycow1111.github.io/assets/images/2018/it/mysql-docker-setting1.jpg)
 ## docker常用命令
 ### 启动container
     docker start containerID
