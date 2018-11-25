@@ -8,10 +8,16 @@ excerpt: 阿里云 docker mysql
 ---
 
 # 阿里云安装和简单docker
+
 ## 安装docker
+
 ### step 1: 安装必要的一些系统工具
-    sudo yum install -y yum-utils device-mapper-persistent-data lvm2
+
+```linux
+sudo yum install -y yum-utils device-mapper-persistent-data lvm2
+```
 ### Step 2: 添加软件源信息
+
     sudo yum-config-manager --add-repo  http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 ### Step 3: 更新并安装Docker-CE
     sudo yum makecache fast
@@ -44,9 +50,15 @@ excerpt: 阿里云 docker mysql
     enterpassword
 外部navicat连接：
 ### 配置mysql连接
-    ![mysql-docker-setting](https://angrycow1111.github.io/assets/images/2018/it/mysql-docker-setting.jpg)
-    
-     ![mysql-docker-setting1](https://angrycow1111.github.io/assets/images/2018/it/mysql-docker-setting1.jpg)
+
+
+
+![mysql-docker-setting](https://angrycow1111.github.io/assets/images/2018/it/mysql-docker-setting.jpg)
+
+![mysql-docker-setting1](https://angrycow1111.github.io/assets/images/2018/it/mysql-docker-setting1.jpg)
+
+
+
 ## docker常用命令
 ### 启动container
     docker start containerID
