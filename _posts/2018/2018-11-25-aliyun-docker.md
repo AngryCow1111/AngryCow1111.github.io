@@ -4,7 +4,7 @@ title:  阿里云安装和简单使用docker
 no-post-nav: true
 category: others
 tags: [others]
-excerpt: 新的公司 第一天上班
+excerpt: 阿里云 docker mysql
 ---
 
 # 阿里云安装和简单docker
@@ -27,13 +27,13 @@ excerpt: 新的公司 第一天上班
 ### 启动mysql
     docker run -p 53306:3306 -v $PWD/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=password --name mysql5719 -d 16f9fffc75d8
     -p53306:3306：将容器的3306端口映射到主机的3306端口；
-
+    
     -v$PWD/mysql:/var/lib/mysql：将主机当前目录下的/mysql挂载到容器的/var/lib/mysql；
-
+    
     -e MYSQL_ROOT_PASSWORD=password：初始化root用户的密码；
-
+    
     --name 给容器命名，mysql5719；
-
+    
     -d 表示容器在后台运行 (错误【是刚才下载的mysql的imageID，也就是我们所说的镜像ID】)
 ## 连接mysql
 内部连接：   
