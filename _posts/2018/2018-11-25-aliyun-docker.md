@@ -7,7 +7,7 @@ tags: [others]
 excerpt: 阿里云 docker mysql
 ---
 
-# 阿里云安装和简单docker
+# 阿里云安装和简单使用docker
 
 ## 安装docker
 
@@ -17,7 +17,6 @@ excerpt: 阿里云 docker mysql
 sudo yum install -y yum-utils device-mapper-persistent-data lvm2
 ```
 ### Step 2: 添加软件源信息
-
     sudo yum-config-manager --add-repo  http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 ### Step 3: 更新并安装Docker-CE
     sudo yum makecache fast
@@ -28,8 +27,10 @@ sudo yum install -y yum-utils device-mapper-persistent-data lvm2
 ## docker安装mysql
 ###  搜索mysql镜像)
     docker search mysql
+    
 ### 下载mysql镜像，默认最新版
     docker pull mysql 
+    
 ### 启动mysql
     docker run -p 53306:3306 -v $PWD/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=password --name mysql5719 -d 16f9fffc75d8
     -p53306:3306：将容器的3306端口映射到主机的3306端口；
@@ -41,6 +42,7 @@ sudo yum install -y yum-utils device-mapper-persistent-data lvm2
     --name 给容器命名，mysql5719；
     
     -d 表示容器在后台运行 (错误【是刚才下载的mysql的imageID，也就是我们所说的镜像ID】)
+    
 ## 连接mysql
 内部连接：   
 ### 进入mysql容器
