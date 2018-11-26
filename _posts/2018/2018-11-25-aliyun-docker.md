@@ -62,6 +62,7 @@ sudo yum install -y yum-utils device-mapper-persistent-data lvm2
 
 
 ## docker常用命令
+
 ### 启动container
     docker start containerID
 ### 关闭container
