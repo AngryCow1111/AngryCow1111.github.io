@@ -1,14 +1,9 @@
 ---
 layout: posttitle:  Eureka快速创建注册中心
-
 no-post-nav: true
-
 category: springboot
-
 tags: [springboot]
-
 excerpt: eureka springboot 注册中心
-
 ---
 
 # Eureka快速创建注册中心## 创建springboot项目- pom.xml文件如下:
