@@ -1,5 +1,6 @@
 ---
-layout: posttitle:  Eureka快速创建注册中心
+layout: post
+title:  Eureka快速创建注册中心
 no-post-nav: true
 category: springboot
 tags: [springboot]
