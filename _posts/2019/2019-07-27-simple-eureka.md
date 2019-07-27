@@ -100,7 +100,7 @@ eureka:
 相关配置参数如下标：
 
 |参数|可选值|描述
-|---|---|---|
+---|---|---
 eureka.instance.prefer-ip-address | true/false |---
 eureka.client.fetch-registry | true/false | 是否要检索服务
 eureka.client.register-with-eureka | true/false | 是否注册到注册中心 
