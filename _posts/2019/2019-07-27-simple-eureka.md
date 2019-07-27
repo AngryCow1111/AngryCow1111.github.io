@@ -106,7 +106,8 @@ eureka.client.fetch-registry | true/false | 是否要检索服务
 eureka.client.register-with-eureka | true/false | 是否注册到注册中心 
 eureka.client.fetch-registry | true/false | 是否要检索服务 
 eureka.client.service-url.defaultZone | http://ip:port/eureka/或者http://hostname/eureka/ | 注册中心地址 
-eureka.instance.prefer-ip-address | true/false | 是否使用ip注册服务 |
-eureka.instance.hosthome | peer1 | 域名   |eureka.instance.ip-address | 127.0.0.1 | prefer-ip-address为true时使用
+eureka.instance.prefer-ip-address | true/false | 是否使用ip注册服务
+eureka.instance.hosthome | peer1 | 域名   
+eureka.instance.ip-address | 127.0.0.1 | prefer-ip-address为true时使用
 
 - 开启注册中心功能使用@EnableEurekaServer注解开启注册中心功能。
