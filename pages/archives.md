@@ -1,4 +1,4 @@
-、---
+---
 layout: page
 title: All articles are here
 titlebar: archives
