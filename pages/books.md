@@ -2,7 +2,7 @@
 layout: page
 title: 书中阁楼，临仙而立
 titlebar: books
-subtitle: <span class="mega-octicon octicon-keyboard"></span>&nbsp;&nbsp;我也是一个读者，常临书阁，忘而难返。
+subtitle: <span class="mega-octicon octicon-keyboard"></span>&nbsp;&nbsp;我是一个读者，常临书阁，忘而难返。
 menu: books
 css: ['blog-page.css']
 permalink: /books
