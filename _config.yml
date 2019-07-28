@@ -124,6 +124,10 @@ classes:
     href: /life.html
     name: 我的故事
     describe: 生活就是故事，故事就是生活
+  - 
+   href: /books.html
+   name: 书中阁楼
+   describe: 读书在于安静，而安静莫于读书
 
   -
     href: /arch.html
@@ -134,6 +138,7 @@ classes:
     href: /jvm.html
     name: Jvm系列文章
     describe: Java之根基，Java程序员必学
+  
 
 
 # ---------------- #
