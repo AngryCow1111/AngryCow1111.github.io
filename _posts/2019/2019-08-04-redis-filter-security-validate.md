@@ -4,7 +4,7 @@ title:  使用filter+redis简单实现请求安全检验
 no-post-nav: true
 category: nosql
 tags: [nosql filter]
-excerpt: nosql linosql 安全检验
+excerpt: nosql nosql 安全检验
 ---
 # 使用filter+redis简单实现请求安全检验
 ## 模拟应用场景
