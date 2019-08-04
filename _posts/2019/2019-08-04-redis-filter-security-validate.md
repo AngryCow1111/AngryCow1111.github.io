@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  使用filter+redis实现简单请求安全检验
+title:  使用filter+redis简单实现请求安全检验
 no-post-nav: true
 category: nosql
 tags: [nosql filter]
 excerpt: nosql linosql 安全检验
 ---
-# 使用filter+redis实现简单请求安全检验
+# 使用filter+redis简单实现请求安全检验
 ## 模拟应用场景
 在项目中，简单实现对用户请求的合法性就行校验，对不合法的请求进行在调用接口之前，进行拦截。比如在header中添加token。
 ## 具体实现
