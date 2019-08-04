@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ElasticSearch 系列文章
-titlebar: docker
+titlebar: elasticsearch
 subtitle: <span class="mega-octicon octicon-flame"></span>&nbsp;&nbsp; Docker 系列教程
 menu: elasticsearch
 css: ['blog-page.css']
@@ -15,7 +15,7 @@ keywords: ElasticSearch,Document,NoSql,CQRS
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='docker'  or post.keywords contains 'docker' or post.keywords contains 'Docker' %}
+                {% if post.category=='docker'  or post.keywords contains 'elasticsearch' or post.keywords contains 'ElasticSearch' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
