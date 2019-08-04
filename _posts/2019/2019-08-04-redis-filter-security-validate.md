@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  使用filter+redis简单实现请求安全检验
+title:  简单实现请求安全检验
 no-post-nav: true
 category: nosql
 tags: [nosql filter]
