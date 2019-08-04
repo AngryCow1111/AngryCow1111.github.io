@@ -113,6 +113,9 @@ labels:
   -
     href: /docker.html
     name: Docker
+  -
+    href: /elasticsearch.html
+    name: ElasticSearch
 
   -
     href: /open-source.html
