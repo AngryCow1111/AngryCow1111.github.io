@@ -9,8 +9,7 @@ excerpt: java list 源码
 # List源码的简单解读
  ## 1. ADD操作
 
- 1. 疯狂想象
-    
+ 1. 疯狂想象  
 步骤 | 可能的问题
 ---|---
  add之前判断是否有足够的空间|空间判断规则
@@ -97,9 +96,8 @@ private void grow(int minCapacity) {
 4. 使用newCapacity最为新数组的大小，对原数组进行复制。
 
  ## 2. ROMOVE
- 
- 1. 疯狂想想象
 
+ 1. 疯狂想想象     
 步骤 | 可能的问题
 ---|---
 判断index是否在数组范围内 |可能就是根据index是否在数组长度-1内。
