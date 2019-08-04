@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nosql 系列文章
+title: Nosql 系列文章1111111
 titlebar: nosql
 subtitle: <span class="mega-octicon octicon-cloud-download"></span>&nbsp;&nbsp;
      <a href ="https://angrycow1111.github.io/spring-boot-leaning">更多 Spring Boot 2.0 精选课程 ， <font color="#EB9439">点我</font>查看！</a><br/>
