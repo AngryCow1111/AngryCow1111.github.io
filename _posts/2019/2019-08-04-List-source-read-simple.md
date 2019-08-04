@@ -6,8 +6,8 @@ category: other
 tags: [java 源码]
 excerpt: java list 源码
 ---
-
- ## 1. ADD操作
+# List源码的简单解读
+ ## 1.ADD操作
  1. 疯狂想象
     
 步骤 | 可能的问题
@@ -95,11 +95,8 @@ private void grow(int minCapacity) {
 3. 接着对newCapacity进行判断是否大于List的最大容量。
 4. 使用newCapacity最为新数组的大小，对原数组进行复制。
 
-      
-     
- ## 2. ROMOVE
+ ## 2.ROMOVE
  1. 疯狂想想象
- 
 
 步骤 | 可能的问题
 ---|---
