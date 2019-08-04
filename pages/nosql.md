@@ -2,9 +2,9 @@
 layout: page
 title: Nosql 系列文章
 titlebar: nosql
-menu: spring-cloud
+menu: nosql
 css: ['blog-page.css']
-permalink: /spring-cloud
+permalink: /nosql
 keywords: Nosql,Redis,MongoDB,ElasticSearch,ES
 ---
 {% include spring-cloud.html %}
