@@ -2,7 +2,7 @@
 layout: page
 title: ElasticSearch 系列文章
 titlebar: elasticsearch
-subtitle: <span class="mega-octicon octicon-flame"></span>&nbsp;&nbsp; Docker 系列教程
+subtitle: <span class="mega-octicon octicon-flame"></span>&nbsp;&nbsp; ElasticSearch 系列教程
 menu: elasticsearch
 css: ['blog-page.css']
 permalink: /elasticsearch
