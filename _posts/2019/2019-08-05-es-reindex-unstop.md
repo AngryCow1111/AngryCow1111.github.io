@@ -205,4 +205,5 @@ GET /user_index/mytest2/_search
   }
 }
 ```
+       
 **到此es的reindex结束。** 
